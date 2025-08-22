@@ -146,25 +146,6 @@
   transform: translateY(0);
 }
 
-.ad-container {
-  width: 100%;
-  max-width: 500px;
-  margin: 20px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ad-container .adsbygoogle {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  min-height: 90px;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 0.8rem;
-}
 
 @media (max-width: 768px) {
   .app {
