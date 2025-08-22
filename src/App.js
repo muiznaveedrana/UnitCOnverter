@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import { unitCategories, convertUnits } from './units';
+import AdSense from './AdSense';
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState('length');
@@ -50,6 +51,14 @@ function App() {
         <h1>Unit Converter</h1>
         <p>Convert between units with precision</p>
       </header>
+
+      <div className="ad-container">
+        <AdSense
+          slot="XXXXXXXXXX"
+          format="auto"
+          style={{ width: '100%', height: '90px' }}
+        />
+      </div>
 
       <div className="converter">
         <div className="category-selector">
@@ -119,6 +128,14 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="ad-container">
+        <AdSense
+          slot="YYYYYYYYYY"
+          format="auto"
+          style={{ width: '100%', height: '250px' }}
+        />
       </div>
     </div>
   );
